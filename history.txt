@@ -1,0 +1,177 @@
+    1  git --version
+    2  ls
+    3  git ls
+    4  git man
+    5  pwd
+    6  ls /
+    7  pwd
+    8  cd home
+    9  ls
+   10  cd init
+   11  clear
+   12  cd
+   13  mkdir luka
+   14  ls
+   15  cd luka
+   16  cd
+   17  mkdir lkay
+   18  mkdir lux
+   19  ls
+   20  rm lkay
+   21  rmdir lkay
+   22  ls
+   23  rmdir luka
+   24  ls
+   25  rmdir lux
+   26  ls
+   27  mkdir luka
+   28  cd luka
+   29  mkdir lkay
+   30  cd lkay
+   31  mkdir lux
+   32  cd lux
+   33  cd
+   34  cd..
+   35  cd ..
+   36  ls
+   37  cd lukalkaylux
+   38  ls
+   39  cd ..
+   40  cd luka
+   41  ls
+   42  clear
+   43  ls
+   44  cd ..
+   45  cd..
+   46  mkdir luka
+   47  rmdir luka
+   48  ls
+   49  clear
+   50  ls
+   51  ls/
+   52  ls /
+   53  git version
+   54  mkdir lkay
+   55  ls
+   56  cd luka
+   57  ls
+   58  cd lkay
+   59  ls
+   60  rmdir lux
+   61  ls
+   62  cd
+   63  ls
+   64  cd ..
+   65  cd
+   66  ls
+   67  cd luka
+   68  ls
+   69  rmdir lkay
+   70  ls
+   71  cd~
+   72  cd ~
+   73  ls
+   74  rmdir luka
+   75  ls
+   76  clear
+   77  cd home
+   78  mkdir luka
+   79  ls
+   80  cd luka
+   81  ls
+   82  cd home
+   83  cd
+   84  ls
+   85  rmdir luka
+   86  ls
+   87  man
+   88  ls
+   89  man ls
+   90  clear
+   91  mkdir git-basics-exercises
+   92  ls
+   93  rmdir git-basics-exercises
+   94  ls
+   95  mkdir git-basic-exercises
+   96  ls
+   97  cd git-basic-exercises
+   98  ls
+   99  ls -a
+  100  git init
+  101  git status
+  102  touch README.md
+  103  ls
+  104  ls -a
+  105  git status
+  106  git log
+  107  git add
+  108  git add .
+  109  git status
+  110  git reset
+  111  git status
+  112  git add README.md
+  113  git status
+  114  git -m "initial commit"
+  115  git commit -m "initial commit"
+  116  git config --global user.email "lukhanyo95@gmail.com"
+  117  git config --global user.name "Luka"
+  118  get config --get user.email
+  119  git config --get user.email
+  120  git config --get user.name
+  121  git status
+  122  git commit -m "initial commit"
+  123  git log
+  124  q
+  125  nano README.md
+  126  y
+  127  nano README.md
+  128  cat README.md
+  129  git status
+  130  git add .
+  131  git commit -m "second commit"
+  132  git status
+  133  nano README.md
+  134  cat README.md
+  135  git status
+  136  git add .
+  137  git status
+  138  git commmit -m "third commit"
+  139  git commit -m "third commit"
+  140  git log
+  141  git checkout 09c69fe3ab8477fc6442cb207637116084cbfcce
+  142  cat README.md
+  143  q
+  144  cat README.md
+  145  git checkout main
+  146  git checkout master
+  147  cat README.md
+  148  git checkout 3c235d38deb90bfa9da7d81ab7f9e01219961dba
+  149  cat README.md
+  150  git checkout master
+  151  git log
+  152  git checkout 199e08e5297babb424fbb56d99688a31e494fa61
+  153  cat README.md
+  154  git checkout master
+  155  git log
+  156  git branch
+  157  git branch milkshake-flavours
+  158  git branch
+  159  git checkout milkshake-flavours
+  160  git branch
+  161  nano milkshakes.md
+  162  cat milkshakes.md
+  163  git status
+  164  git milkshakes.md
+  165  git add milkshakes.md
+  166  git status
+  167  git commit -m "added initial flavours"
+  168  git log
+  169  git checkout master
+  170  git log
+  171  git branch
+  172  git branch history
+  173  git branch
+  174  git checkout history
+  175  git branch
+  176  git log
+  177  history > history.txt
